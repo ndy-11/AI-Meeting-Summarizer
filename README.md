@@ -27,12 +27,12 @@ pip install -r requirements.txt
     ```sh
    python app.py
     ```
-5. **Mengunggah File Audio**
+4. **Mengunggah File Audio**
   -  Gunakan cURL atau Postman untuk mengunggah file audio:
-    ```sh
+```sh
     curl -X POST -F "file=@meeting.mp3" http://127.0.0.1:5000/upload
-    ```
-5. Hasil Output
+```
+5. **Hasil Output**
 Aplikasi akan mengembalikan ringkasan rapat dalam format JSON seperti berikut:
 ```sh
 {
