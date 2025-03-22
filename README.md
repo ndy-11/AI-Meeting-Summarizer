@@ -20,12 +20,18 @@ pip install -r requirements.txt
 2. **Konfigurasi**
   - Pastikan **API Key OpenAI** sudah disiapkan.
   - Setel **environment** variable:
-    ```sh export OPENAI_API_KEY="your_api_key"```
+    ```sh
+    export OPENAI_API_KEY="your_api_key"
+    ```
 3. **Menjalankan Aplikasi**
-    ```sh python app.py```
-4. **Mengunggah File Audio**
+    ```sh
+   python app.py
+    ```
+5. **Mengunggah File Audio**
   - Gunakan cURL atau Postman untuk mengunggah file audio:
-    ```sh curl -X POST -F "file=@meeting.mp3" http://127.0.0.1:5000/upload```
+    ```sh
+    curl -X POST -F "file=@meeting.mp3" http://127.0.0.1:5000/upload
+    ```
 5. Hasil Output
 Aplikasi akan mengembalikan ringkasan rapat dalam format JSON seperti berikut:
 ```sh
@@ -34,7 +40,6 @@ Aplikasi akan mengembalikan ringkasan rapat dalam format JSON seperti berikut:
   "keywords": "strategi, pemasaran, anggaran",
   "action_items": "Tim perlu mengajukan laporan pada Jumat."
 }
-
 ```
 ### Teknologi yang Digunakan
 - **Backend**: Flask
