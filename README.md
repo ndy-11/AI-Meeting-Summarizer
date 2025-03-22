@@ -12,11 +12,11 @@ AI Meeting Summarizer adalah aplikasi yang secara otomatis mentranskripsi dan me
 
 ### Cara Menggunakan
   1. **Instalasi**
-```sh
+    ```sh
 git clone https://github.com/username/ai-meeting-summarizer.git
 cd ai-meeting-summarizer
 pip install -r requirements.txt
-```
+    ```
 2. **Konfigurasi**
 - Pastikan **API Key OpenAI** sudah disiapkan.
 - Setel **environment** variable:
