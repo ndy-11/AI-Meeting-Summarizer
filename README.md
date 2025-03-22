@@ -12,14 +12,14 @@ AI Meeting Summarizer adalah aplikasi yang secara otomatis mentranskripsi dan me
 
 ### Cara Menggunakan
   1. **Instalasi**
-    ```sh
+```sh
 git clone https://github.com/username/ai-meeting-summarizer.git
 cd ai-meeting-summarizer
 pip install -r requirements.txt
-    ```
+```
 2. **Konfigurasi**
-  - Pastikan **API Key OpenAI** sudah disiapkan.
-  - Setel **environment** variable:
+  -- Pastikan **API Key OpenAI** sudah disiapkan.
+  -- Setel **environment** variable:
     ```sh
     export OPENAI_API_KEY="your_api_key"
     ```
@@ -28,7 +28,7 @@ pip install -r requirements.txt
    python app.py
     ```
 5. **Mengunggah File Audio**
-  - Gunakan cURL atau Postman untuk mengunggah file audio:
+  -- Gunakan cURL atau Postman untuk mengunggah file audio:
     ```sh
     curl -X POST -F "file=@meeting.mp3" http://127.0.0.1:5000/upload
     ```
