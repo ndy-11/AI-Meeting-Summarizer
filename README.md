@@ -17,23 +17,22 @@ git clone https://github.com/username/ai-meeting-summarizer.git
 cd ai-meeting-summarizer
 pip install -r requirements.txt
 ```
-  2. **Konfigurasi**
+2.**Konfigurasi**
 - Pastikan **API Key OpenAI** sudah disiapkan.
 - Setel **environment** variable:
 ```sh
 export OPENAI_API_KEY="your_api_key"
 ```
-
-  3. **Menjalankan Aplikasi**
+3.**Menjalankan Aplikasi**
 ```sh
 python app.py
 ```
-  4. **Mengunggah File Audio**
+4.**Mengunggah File Audio**
 - Gunakan cURL atau Postman untuk mengunggah file audio:
 ```sh
 curl -X POST -F "file=@meeting.mp3" http://127.0.0.1:5000/upload
 ```
-  5. Hasil Output
+5.Hasil Output
 Aplikasi akan mengembalikan ringkasan rapat dalam format JSON seperti berikut:
 ```sh
 {
