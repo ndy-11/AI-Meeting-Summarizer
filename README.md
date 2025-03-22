@@ -1,8 +1,8 @@
-#AI Meeting Summarizer
-##Deskripsi
+# AI Meeting Summarizer
+## Deskripsi
 AI Meeting Summarizer adalah aplikasi yang secara otomatis mentranskripsi dan meringkas poin-poin penting dari rekaman rapat. Aplikasi ini menggunakan Whisper untuk transkripsi audio dan GPT-4 untuk menganalisis serta menampilkan ringkasan, kata kunci, dan item tindakan dari rapat.
 
-###Fitur
+### Fitur
 
 - **Transkripsi Audio ke Teks**: Menggunakan model Whisper untuk mengubah audio menjadi teks.
 - **Ringkasan Rapat Otomatis**: AI merangkum rapat dalam 5 poin utama.
@@ -10,7 +10,7 @@ AI Meeting Summarizer adalah aplikasi yang secara otomatis mentranskripsi dan me
 - **Identifikasi Item Tindakan**: Menemukan tugas atau tindakan yang harus dilakukan setelah rapat.
 - **Dukungan Multi-Bahasa**: Mampu menganalisis berbagai bahasa tergantung pada input audio.
 
-###Cara Menggunakan
+### Cara Menggunakan
   1.**Instalasi**
 ```sh
 git clone https://github.com/username/ai-meeting-summarizer.git
@@ -42,15 +42,15 @@ Aplikasi akan mengembalikan ringkasan rapat dalam format JSON seperti berikut:
   "action_items": "Tim perlu mengajukan laporan pada Jumat."
 }
 ```
-###Teknologi yang Digunakan
+### Teknologi yang Digunakan
 - **Backend**: Flask
 - **Transkripsi Audio**: Whisper
 - **AI Processing**: OpenAI GPT-4
 - **Database (Opsional)**: MongoDB atau PostgreSQL untuk menyimpan riwayat ringkasan
   
-###Kontribusi
+### Kontribusi
 Jika ingin berkontribusi, silakan lakukan fork dan pull request di repository ini.
 
-###Lisensi
+### Lisensi
 Proyek ini dilisensikan di bawah MIT License.
 
