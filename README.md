@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 2. **Konfigurasi**
 - Pastikan **API Key OpenAI** sudah disiapkan.
-  - Setel **environment** variable:
+- Setel **environment** variable:
     ```sh
     export OPENAI_API_KEY="your_api_key"
     ```
